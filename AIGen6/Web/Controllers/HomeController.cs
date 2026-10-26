@@ -6,9 +6,9 @@ namespace Web.Controllers
 {
     public class HomeController : Controller
     {
-        public String Index()
+        public IActionResult Index()
         {
-            return "HELLOAI";
+            return View();
         }
 
         public IActionResult Privacy()
